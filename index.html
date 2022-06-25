@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+            <h3>Constructor</h3>
+        </div>
+        <div class="menu">
+            <a href="#">Dashboard</a>
+            <a href="#">About us</a>
+            <a href="#">News</a>
+            <a href="#">Use Policy</a>
+            <a href="#">Contacts</a>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search Products, Orders and Clients">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="user">
+            <div class="infor">
+                <i class="fa-solid fa-user"></i>
+                <p>Clayton Santos</p>
+            </div>
+            <i class="fa-solid fa-bell" class="notification">
+                <span></span>
+            </i>
+            <i class="fa-solid fa-circle-xmark" class="close"></i>
+           
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="wrapper-left">
+            <div class="list-setting">
+                <i class="fa-solid fa-cloud-bolt active"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <i class="fa-solid fa-earth-africa"></i>
+                <i class="fa-solid fa-city"></i>
+            </div>
+            <div class="list-friends">
+                <img src="./image/author-1.jpg" alt="">
+                <img src="./image/author-2.jpg" alt="">
+                <img src="./image/author-3.jpg" alt="">
+                <i class="fa-solid fa-circle-plus"></i>
+            </div>
+        </div>
+        <div class="wrapper-right">
+            <div class="profile">
+                <div class="profile-top">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="profile-avatar">
+                    <div class="avatar">
+                        <img src="./image/author-6.jpg" alt="">
+                    </div>
+                    <p class="name-user">Hello Alfed Bryant</p>
+                    <p class="email-user">adrain.nader@yahoo.com</p>
+                </div>
+                <div class="profile-flex">
+                    <div class="item">
+                        <i class="fa-brands fa-dashcube"></i>
+                        <p>Dashboard</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-list-check"></i>
+                        <p>Notes</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-list-check"></i>
+                        <p>Notes</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-cloud"></i>
+                        <p>Files</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-users"></i>
+                        <p>Clients</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <p>Calendars</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-wrench"></i>
+                        <p>Setting</p>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="profile-contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-address-book"></i>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="missions">
+                <div class="menu-mission">
+                    <div class="item-menu-mission">
+                        <i class="fa-solid fa-list-ul"></i>
+                        <span>List Tasks</span>
+                    </div>
+                    <div class="item-menu-mission">
+                        <i class="fa-solid fa-border-all"></i>
+                        <span>Boards</span>
+                    </div>
+                    <div class="item-menu-mission">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span>Calendar</span>
+                    </div>
+                    <div class="item-menu-mission">
+                        <i class="fa-solid fa-chart-gantt"></i>
+                        <span>Gantt</span>
+                    </div>
+                    <div class="item-menu-mission">
+                        <i class="fa-solid fa-list-timeline"></i>
+                        <span>Time Line</span>
+                    </div>
+                    <div class="item-menu-mission">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <span>Activity</span>
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search tasks">
+                    </div>
+                </div>
+                <div class="mission-list">
+                    <div class="todo-list" id="1">
+                        <span class="title">TO DO</span>
+                        <span class="amount">5</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="todo-list" id="2">
+                        <span class="title">IN WORK</span>
+                        <span class="amount">5</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="todo-list" id="3">
+                        <span class="title">REVIEW</span>
+                        <span class="amount">5</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="todo-list" id="4">
+                        <span class="title">DONE</span>
+                        <span class="amount">5</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="all-mission">
+                    <div class="todo-mission">
+                        <div class="todo">
+
+                        </div>
+                        <div class="new-task">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>New Task</span>
+                        </div>
+                    </div>
+                    <div class="todo-mission">
+                        <div class="todo">
+
+                        </div>
+                        <div class="new-task">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>New Task</span>
+                        </div>
+                    </div>
+                    <div class="todo-mission">
+                        <div class="todo">
+                            <div class="item-mission">
+                          
+                                <div class="content-mission">
+                                    <div class="subtitle">
+                                        <span>Space Tasks 2</span>
+                                        <div class="images">
+                                            <img src="./image/author-3.jpg" alt="">
+                                        </div>
+                                      
+                                    </div>
+                                    <p class="title">Make Money Online Through</p>
+                                    <div class="icons">
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-bars"></i>
+                                            <span>4</span>
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-paperclip"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-clock"></i>
+                                            <span>6 day left</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-mission">
+                              
+                                <div class="content-mission">
+                                    <div class="subtitle">
+                                        <span>Space Tasks 2</span>
+                                        <div class="images">
+                                            <img src="./image/author-3.jpg" alt="">
+                                        </div>
+                                      
+                                    </div>
+                                    <p class="title">Make Money Online Through</p>
+                                    <div class="icons">
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-bars"></i>
+                                            <span>4</span>
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-paperclip"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-clock"></i>
+                                            <span>6 day left</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-mission">                     
+                                <div class="content-mission">
+                                    <div class="subtitle">
+                                        <span>Space Tasks 2</span>
+                                        <div class="images">
+                                            <img src="./image/author-3.jpg" alt="">
+                                        </div>
+                                      
+                                    </div>
+                                
+                                    <div class="icons">
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-bars"></i>
+                
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-paperclip"></i>
+                            
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-clock"></i>
+                                     
+                                        </div>
+                                        <button>Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="todo-mission">
+                        <div class="todo">
+                            <div class="item-mission">
+                            
+                                <div class="content-mission">
+                                    <div class="subtitle">
+                                        <span>Space Tasks 2</span>
+                                        <div class="images">
+                                            <img src="./image/author-5.jpg" alt="">
+                                        </div>
+                                       
+                                    </div>
+                                    <p class="title">Make Money Online Through</p>
+                                    <div class="icons">
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-bars"></i>
+                                            <span>4</span>
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-paperclip"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="icon bar">
+                                            <i class="fa-solid fa-clock"></i>
+                                            <span>6 day left</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="user-infor">
+            <div class="user-infor-top">
+                <div class="user-infor-title">
+                    <span></span>
+                    <p class="name-apps">Development App</p>
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-solid close fa-xmark" id="closeUser"></i>
+                </div>
+                <div class="user-infor-content">
+                    <div class="user-infor-item">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>4 Subtasks</span>
+                    </div>
+                    <div class="user-infor-item">
+                        <i class="fa-solid fa-flag"></i>
+                        <span>Priority</span>
+                    </div>
+                    <div class="user-infor-item">
+                        <i class="fa-solid fa-cloud"></i>
+                        <span>3 Files</span>
+                    </div>
+                    <div class="user-infor-item">
+                        <i class="fa-solid fa-message"></i>
+                        <span>7 Comment</span>
+                    </div>
+                    <div class="user-infor-item">
+                        <img src="./image/author-1.jpg" alt="">
+                        <span class="name-user">Typer Norman</span>
+                    </div>
+                </div>
+            </div>
+            <div class="user-infor-bottom">
+                <div class="start">
+                    <p class="date">START DATE</p>
+                    <div class="time">121212</div>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+                <div class="due">
+                    <p class="date">DUE DATE</p>
+                    <div class="time">121212</div>
+                </div>
+                <div class="run-time">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <span class="time">0:00</span>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <div class="box-newTask">
+        <div class="box">
+            <i class="fa-solid fa-xmark" id="closeTask"></i>
+            <h2>New Task</h2>
+            <div class="input-form">
+                <div class="box-input">
+                    <p for="">Người dùng</p>
+                    <input type="text" class="subtitle">
+                </div>
+                <div class="box-input">
+                    <p for="">Tiêu đề</p>
+                    <input type="text" class="title">
+                </div>
+               
+                <button class="btnSave">Save</button>
+            </div>
+         
+        </div>
+       
+    </div>
+</body>
+    <script src="./app.js"></script>
+</html>
